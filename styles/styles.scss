@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+html {
+    font-size: 14px;
+}
 body {
     height: 100vh;
     overflow: hidden;
@@ -30,10 +33,10 @@ body {
             justify-content: space-between;
             text-align: center;
             .content__header {
-                font-size: 24px;
+                font-size: 1.5rem;
             }
             .content__description {
-                font-size: 15px;
+                font-size: 1.1rem;
                 color: hsl(220, 15%, 55%);
                 margin: 5% 0;
             }
